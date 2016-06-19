@@ -1,0 +1,31 @@
+{
+  "name": "time-since",
+  "version": "1.0.0",
+  "description": "Display time since a date",
+  "main": "index.jsx",
+  "scripts": {
+    "build": "node bin/build.js",
+    "dev": "npm run start & npm run watch",
+    "start": "httpster",
+    "watch": "node bin/watch.js"
+  },
+  "author": "Christian Maughan Tegnér <christian.tegner@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMTegner/time-since"
+  },
+  "bugs": {
+    "url": "https://github.com/CMTegner/time-since/issues"
+  },
+  "homepage": "https://github.com/CMTegner/time-since",
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.3",
+    "exorcist": "^0.4.0",
+    "httpster": "^1.0.1",
+    "moment": "^2.10.3",
+    "react": "^0.13.3",
+    "watchify": "^3.2.1"
+  }
+}
